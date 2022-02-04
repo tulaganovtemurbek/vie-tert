@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-light-300.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-regular-400.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Brands';
+    src: url(../icon/webfonts/fa-brands-400.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Duotone';
+    src: url(../icon/webfonts/fa-duotone-900.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome Solid';
+    src: url(../icon/webfonts/fa-solid-900.ttf);
+    font-weight: 900;
+}
+
+
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.far {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fab {
+    font-family: 'FontAwesome Brands';
+    font-weight: 400;
+}
+
+.fad {
+    font-family: 'FontAwesome Duotone';
+    font-weight: 900;
+}
+
+.fas {
+    font-family: 'FontAwesome Solid';
+    font-weight: 900;
+}
+
+
+.films::before {
+    content: '\f008';
+    font-size: 50px;
+    color: #fff;
+    font-style: normal;
+}
+
+.play {
+    position: relative;
+    font-size: 42px;
+}
+
+.play::before {
+    content: '\f04b';
+    font-style: normal;
+    color: #ffff;
+    position: absolute;
+}
+
+.play::after {
+    content: '\10f04b';
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
